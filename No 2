@@ -1,0 +1,35 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package pkg2309179_ghefira.azka.fatharani_tugas4_no2;
+
+/**
+ *
+ * @author FARIZ
+ */
+import java.util.Scanner;
+public class AzkaFatharani_Tugas4_no2 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        System.out.println("Manampilkan dan menghitung jumlah bilangan ganjil");
+      Scanner inputObjk =new Scanner(System.in);
+        System.out.print("Masukkan Batas Awal : ");
+        int x=inputObjk.nextInt();
+        System.out.print("Masukkan Batas Akhir : ");
+        int y=inputObjk.nextInt();
+        int jumlahGanjil=0;
+        System.out.println("Bilangan ganjil dari "+x+" sampai "+y+" yaitu:");
+        for(int i=x; i<=y; i++){
+          if(i%2!=0){
+              System.out.println(i);
+             jumlahGanjil++;
+          }     
+        }
+        System.out.println("Jumlah bilangan ganjil dari"+x+" sampai "+y+" yaitu:"+jumlahGanjil);   
+    }
+    
+}
