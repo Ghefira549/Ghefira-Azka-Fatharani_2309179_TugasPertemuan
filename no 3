@@ -1,0 +1,30 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package pkg2309179_ghefira.azka.fatharani_tugas4_no3;
+
+/**
+ *
+ * @author FARIZ
+ */
+import java.util.Scanner;
+public class AzkaFatharani_Tugas4_no3 {
+    
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        System.out.println("Menghitung nilai faktorial dari suatu bilangan");
+       Scanner inputObjk =new Scanner(System.in);
+        System.out.print("Masukkan Nilai n: ");
+       int n=inputObjk.nextInt();
+       int faktorial=1;
+       for(int i=1; i<=n; i++){
+           faktorial=faktorial*i;
+       }
+        System.out.println(n+"!="+faktorial);
+    }
+    
+}
